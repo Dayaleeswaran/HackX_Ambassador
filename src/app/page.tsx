@@ -1,19 +1,11 @@
-import { Navbar } from "@/components/ui/Navbar";
 import { Hero } from "@/components/sections/Hero";
-import { CinematicReveal } from "@/components/sections/CinematicReveal";
-import { SystemsNominal } from "@/components/sections/SystemsNominal";
-import { Footer } from "@/components/sections/Footer";
+import { Navbar } from "@/components/ui/Navbar";
 
 export default function Home() {
   return (
-    <>
+    <main>
       <Navbar />
-      <main>
-        <Hero />
-        <CinematicReveal />
-        <SystemsNominal />
-      </main>
-      <Footer />
-    </>
+      <Hero />
+    </main>
   );
 }

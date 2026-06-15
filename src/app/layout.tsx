@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stark Industries — Mark LXXXV",
+  title: "HackX Ambassador Portal",
   description:
-    "Arc reactor online. J.A.R.V.I.S. standing by. Scroll to engage the Mark LXXXV.",
+    "HackX Ambassador Program. Portal core active. Scroll to engage.",
   metadataBase: new URL("http://localhost:3000"),
 };
 
