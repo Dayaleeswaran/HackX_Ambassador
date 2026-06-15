@@ -1,7 +1,7 @@
-export const FRAME_COUNT = 210;
+export const FRAME_COUNT = 192;
 
 export const framePath = (n: number) =>
-  `/frames3/ezgif-frame-${String(n).padStart(3, "0")}.webp`;
+  `/frames2/frame_${String(n).padStart(4, "0")}.webp`;
 
 export type Dialogue = {
   id: string;
