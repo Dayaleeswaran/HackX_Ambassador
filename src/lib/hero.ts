@@ -1,7 +1,7 @@
 export const FRAME_COUNT = 192;
 
 export const framePath = (n: number) =>
-  `/frames/frame_${String(n).padStart(4, "0")}.jpg`;
+  `/frames3/frame_${String(n).padStart(4, "0")}.jpg`;
 
 export type Dialogue = {
   id: string;
